@@ -1,6 +1,6 @@
 # Changelog OctoWoW – DragonflightUI-Reforged
 
-> Branch `octowow` = the state from Henry's "OctoWoW – HD Upgrade" install (WoW 1.12). Own changes are marked with `-- [patch]` in the code.
+> Branch `octowow` = the state from Dinkleberrrg's "OctoWoW – HD Upgrade" install (WoW 1.12). Own changes are marked with `-- [patch]` in the code.
 
 **Base:** Stormhand-dev/DragonflightUI-Reforged `2a8d2ff` (2026-04-24)
 
