@@ -1,3 +1,14 @@
+## OctoWoW changes compared to the original
+
+Original: **Stormhand-dev/DragonflightUI-Reforged**. This fork (by Dinkleberrrg) changes:
+
+- Side action bars: single-row bars are no longer mirrored (ran 12…1 instead of 1…12).
+- Side action bars: changing the spacing no longer overwrites the configured grid layout.
+
+Details: [CHANGELOG.md](CHANGELOG.md)
+
+---
+
 # 🐉 Dragonflight UI: Reforged
 
 Dragonflight UI: Reforged is a reforging of a proven legacy.
