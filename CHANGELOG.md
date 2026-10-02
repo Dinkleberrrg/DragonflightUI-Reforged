@@ -4,6 +4,14 @@
 
 **Base:** Stormhand-dev/DragonflightUI-Reforged `2a8d2ff` (2026-04-24)
 
+
+## Releases
+
+Version scheme: `<upstream version>-octo.<n>`. Each release is a git tag `v<version>`; older versions can be downloaded from the tag page on GitHub.
+
+### 1.3.5-octo.1 – 2026-10-03
+- First tagged release with the changes listed below.
+
 ## Changes
 
 ### modules/bars/bars.lua – side action bars (MultiBarLeft/Right)
