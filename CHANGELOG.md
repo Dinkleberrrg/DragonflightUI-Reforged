@@ -9,6 +9,9 @@
 
 Version scheme: `<upstream version>-octo.<n>`. Each release is a git tag `v<version>`; older versions can be downloaded from the tag page on GitHub.
 
+### 1.3.5-octo.2 – 2026-10-04
+- Code comments of the changes translated to English. No functional change.
+
 ### 1.3.5-octo.1 – 2026-10-03
 - First tagged release with the changes listed below.
 

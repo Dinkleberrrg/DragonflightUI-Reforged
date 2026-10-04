@@ -585,8 +585,8 @@ DFRL:NewMod("Bars", 1, function()
 
                 local spacing = DFRL:GetTempDB('Bars', spacingKey)
                 local buttonSize = _G[buttonPrefix .. '1']:GetWidth()
-                -- [patch] nur bei mehrzeiligem/vertikalem Layout spiegeln, sonst laeuft eine
-                -- einreihige Leiste rueckwaerts (12 links, 1 rechts)
+                -- [patch] only mirror multi-row/vertical layouts, otherwise a single-row
+                -- bar runs backwards (12 on the left, 1 on the right)
                 local isReversed = (buttonPrefix == 'MultiBarLeftButton' or buttonPrefix == 'MultiBarRightButton') and layout.rows > 1
 
                 for i = (isReversed and 12 or 1), (isReversed and 1 or 12), (isReversed and -1 or 1) do
@@ -665,7 +665,7 @@ DFRL:NewMod("Bars", 1, function()
         end
 
         callbacks.multiBarThreeSpacing = function(value)
-            -- [patch] war hart 'vertical' und hat das Grid-Layout ueberschrieben
+            -- [patch] was hard-coded 'vertical' and overwrote the grid layout
             helpers.setGridLayout(MultiBarLeft, 'MultiBarLeftButton', DFRL:GetTempDB('Bars', 'multiBarThreeGrid'), 'multiBarThreeSpacing')
         end
 
@@ -678,7 +678,7 @@ DFRL:NewMod("Bars", 1, function()
         end
 
         callbacks.multiBarFourSpacing = function(value)
-            -- [patch] war hart 'vertical' und hat das Grid-Layout ueberschrieben
+            -- [patch] was hard-coded 'vertical' and overwrote the grid layout
             helpers.setGridLayout(MultiBarRight, 'MultiBarRightButton', DFRL:GetTempDB('Bars', 'multiBarFourGrid'), 'multiBarFourSpacing')
         end
 
